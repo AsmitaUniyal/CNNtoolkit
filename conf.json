@@ -1,0 +1,18 @@
+
+{
+  "model"           : "vgg16",
+  "weights"         : "imagenet",
+  "include_top"     : false,
+
+  "train_path"      : "D:/face/train",
+  "test_path"       : "D:/face/test",
+  "features_path"   : "D:/face/output/vgg16/features.h5",
+  "labels_path"     : "D:/face/output/vgg16/labels.h5",
+  "results"         : "D:/face/output/vgg16/results.txt",
+  "classifier_path" : "D:/face/output/vgg16/classifier.pickle",
+  "model_path"      : "D:/face/output/vgg16/model",
+
+  "test_size"       : 0.10,
+  "seed"            : 9,
+  "num_classes"     : 17
+}
